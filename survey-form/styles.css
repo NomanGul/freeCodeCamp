@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+#title,
+#description {
+  font-family: monospace;
+}
+
+form {
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label,
+#input-groups-title {
+  display: flex;
+  align-self: flex-start;
+}
+
+label {
+  padding: 10px;
+}
+
+#input-groups-title {
+  padding: 0 10px;
+}
+
+#input-groups {
+  padding: 5px 0;
+}
+
+#input-groups > label {
+  padding: 5px 5px;
+}
+
+input,
+select {
+  margin: 0 10px;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  align-self: center;
+}
+
+textarea,
+button {
+  margin: 10px;
+}

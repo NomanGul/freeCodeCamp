@@ -1,0 +1,26 @@
+{
+  "name": "fcc",
+  "version": "1.0.0",
+  "description": "learning and certifications from FCC",
+  "main": "./index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url './'",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NomanGul/freeCodeCamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NomanGul/freeCodeCamp/issues"
+  },
+  "homepage": "https://nomangul.github.io/freecodecamp",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {}
+}

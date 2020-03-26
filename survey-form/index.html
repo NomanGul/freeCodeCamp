@@ -1,1 +1,85 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Survey Form</title><link href="styles.58909f21.css" rel="stylesheet" type="text/css"></head><body> <div class="container"> <h1 id="title">Survey Form</h1> <p id="description">made by @NomanGul for FCC RWD certification</p> <form id="survey-form"> <label for="name" id="name-label"> Name: <input id="name" type="text" name="name" placeholder="e.g Noman Gul" required> </label> <label for="email" id="email-label"> Email: <input id="email" type="email" name="email" placeholder="e.g example@domain.com" required> </label> <label for="number" id="number-label"> Number: <input id="number" type="number" name="number" min="11" max="13" placeholder="e.g 923452527300"> </label> <label> Select gender: <select name="gender" id="dropdown"> <option value="male">Male</option> <option value="female">Female</option> </select> </label> <div id="input-groups"> <p id="input-groups-title">Pet:</p> <label for="cat"> <input id="cat" name="pet" type="radio" value="cat"> Cat </label> <label for="dog"> <input id="dog" name="pet" type="radio" value="dog"> Dog </label> </div> <div id="input-groups"> <p id="input-groups-title">Hobbies:</p> <label for="cricket"> <input type="checkbox" id="cricket" name="hobbies" value="cricket"> Playing Cricket </label> <label for="hockey"> <input type="checkbox" id="hockey" name="hobbies" value="hockey"> Playing Hockey </label> </div> <textarea placeholder="Comments"></textarea> <button type="submit" id="submit">Submit</button> </form> </div> <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">made by @NomanGul for FCC RWD certification</p>
+      <form id="survey-form">
+        <label for="name" id="name-label">
+          Name:
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="e.g Noman Gul"
+            required
+          />
+        </label>
+        <label for="email" id="email-label">
+          Email:
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="e.g example@domain.com"
+            required
+          />
+        </label>
+        <label for="number" id="number-label">
+          Number:
+          <input
+            id="number"
+            type="number"
+            name="number"
+            min="11"
+            max="13"
+            placeholder="e.g 923452527300"
+          />
+        </label>
+        <label>
+          Select gender:
+          <select name="gender" id="dropdown">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </label>
+        <div id="input-groups">
+          <p id="input-groups-title">Pet:</p>
+          <label for="cat">
+            <input id="cat" name="pet" type="radio" value="cat" />
+            Cat
+          </label>
+          <label for="dog">
+            <input id="dog" name="pet" type="radio" value="dog" />
+            Dog
+          </label>
+        </div>
+        <div id="input-groups">
+          <p id="input-groups-title">Hobbies:</p>
+          <label for="cricket">
+            <input
+              type="checkbox"
+              id="cricket"
+              name="hobbies"
+              value="cricket"
+            />
+            Playing Cricket
+          </label>
+          <label for="hockey">
+            <input type="checkbox" id="hockey" name="hobbies" value="hockey" />
+            Playing Hockey
+          </label>
+        </div>
+        <textarea placeholder="Comments"></textarea>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

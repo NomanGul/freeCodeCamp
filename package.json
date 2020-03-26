@@ -4,8 +4,6 @@
   "description": "learning and certifications from FCC",
   "main": "./index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url './'",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -19,8 +17,6 @@
     "url": "https://github.com/NomanGul/freeCodeCamp/issues"
   },
   "homepage": "https://nomangul.github.io/freecodecamp",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  },
+  "devDependencies": {},
   "dependencies": {}
 }

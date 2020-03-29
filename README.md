@@ -19,3 +19,9 @@ WIP: Projects for FreeCodeCamp full-stack development [certification](https://gu
   Code => [💻](https://github.com/NomanGul/freecodecamp/tree/master/product-landing-page)
 
   Link => [🔗](https://nomangul.github.io/freecodecamp/product-landing-page/)
+
+- **[Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)**
+
+  Code => [💻](https://github.com/NomanGul/freecodecamp/tree/master/technical-documentation-page)
+
+  Link => [🔗](https://nomangul.github.io/freecodecamp/technical-documentation-page/)
